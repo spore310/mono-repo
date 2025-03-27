@@ -1,0 +1,622 @@
+
+> @prisma/core@0.1.0 generate C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma
+> turbo run generate --filter=@prisma/*
+
+• Packages in scope: @prisma/core
+• Running generate in 1 packages
+• Remote caching disabled
+@prisma/core:generate: cache miss, executing eb155f69c4ccb267
+@prisma/core:generate: 
+@prisma/core:generate: > @prisma/core@0.1.0 generate C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma
+@prisma/core:generate: > turbo run generate --filter=@prisma/*
+@prisma/core:generate: 
+@prisma/core:generate: • Packages in scope: @prisma/core
+@prisma/core:generate: • Running generate in 1 packages
+@prisma/core:generate: • Remote caching disabled
+@prisma/core:generate: @prisma/core:generate: cache miss, executing 8eab987dd2c911d7
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: > @prisma/core@0.1.0 generate C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma
+@prisma/core:generate: @prisma/core:generate: > turbo run generate --filter=@prisma/*
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: • Packages in scope: @prisma/core
+@prisma/core:generate: @prisma/core:generate: • Running generate in 1 packages
+@prisma/core:generate: @prisma/core:generate: • Remote caching disabled
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: cache miss, executing 3420f466cb767e9f
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: > @prisma/core@0.1.0 generate C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: > turbo run generate --filter=@prisma/*
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: • Packages in scope: @prisma/core
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: • Running generate in 1 packages
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: • Remote caching disabled
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: cache miss, executing fd7e1fcd32e47175
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: > @prisma/core@0.1.0 generate C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: > turbo run generate --filter=@prisma/*
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: The input line is too long.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: The syntax of the command is incorrect.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma>  @SET "NODE_PATH=C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\node_modules\.pnpm\turbo@1.13.4\node_modules\turbo\bin\node_modules;C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\node_modules\.pnpm\turbo@1.13.4\node_modules\turbo\node_modules;C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\node_modules\.pnpm\turbo@1.13.4\node_modules;C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\node_modules\.pnpm\node_modules;%NODE_PATH%"
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    877ms 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    1.907s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    2.951s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    3.971s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finish@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/c@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    1.907s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    2.951s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    3.971s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    4.936s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    5.956s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+e:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    3.971s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    4.936s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:ge@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    3.971s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    4.936s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    5.956s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    6.935s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    7.981s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    4.936s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    5.956s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    6.935s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    4.936s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    5.956s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    6.935s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    7.981s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    8.975s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    9.943s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+a/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    6.935s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exite@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/c@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    7.981s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    8.975s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    9.943s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    10.872s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+enerate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    7.981s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    8.975s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    9.943s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:  @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    7.981s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    8.975s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    9.943s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    10.872s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    11.827s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    12.754s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+sma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    8.975s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    9.943s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    10.872s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    11.827s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    12.754s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    13.707s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+nd failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    9.943s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    10.872s @@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    11.827s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    12.754s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    13.707s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    14.672s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.
+e: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    10.872s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    11.827s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:   Time:    12.754s 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: @prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate: @prisma/core:generate:   Time:    13.707s 
+@prisma/core:generate: @prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: @prisma/core:generate: 
+@prisma/core:generate: @prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate: @prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: @prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: @prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core:generate: 
+@prisma/core:generate:  Tasks:    0 successful, 1 total
+@prisma/core:generate: Cached:    0 cached, 1 total
+@prisma/core:generate:   Time:    14.672s 
+@prisma/core:generate: Failed:    @prisma/core#generate
+@prisma/core:generate: 
+@prisma/core:generate:  ERROR  run failed: command  exited (255)
+@prisma/core:generate:  ELIFECYCLE  Command failed with exit code 255.
+@prisma/core:generate: ERROR: command finished with error: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+@prisma/core#generate: command (C:\Users\Yohan\OneDrive\Documents\Code\my-mono-repo\packages\prisma) C:\Program Files\Volta\pnpm.exe run generate exited (255)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    15.582s 
+Failed:    @prisma/core#generate
+
+ ERROR  run failed: command  exited (255)
+ ELIFECYCLE  Command failed with exit code 255.

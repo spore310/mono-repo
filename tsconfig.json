@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["DOM", "ESNext"],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      // UI + Shared Utilities
+      "@jest/config/*": ["packages/jest/*"],
+      "@ui/*": ["packages/ui/src/*"],
+      "@prisma/*": ["packages/prisma/src/*"],
+      "@shared/*": ["packages/shared/src/*"],
+      "@common/*": ["packages/shared/src/utils/common/*"],
+
+      // Prisma Core (Main entrypoint and deep imports)
+      "@prisma/core": ["packages/prisma/src/index.ts"],
+      "@prisma/core/*": ["packages/prisma/src/*"],
+
+      // Prisma Auth Helpers
+      "@prisma/auth": ["packages/prisma/src//generated/auth/index.ts"],
+
+      // Prisma Generated Clients
+      "@prisma/generated/*": ["packages/prisma/src/generated/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build"]
+}
