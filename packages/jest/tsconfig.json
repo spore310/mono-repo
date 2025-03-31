@@ -2,7 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "ES2021",
-    "module": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -12,5 +14,6 @@
     "resolveJsonModule": true,
     "types": ["jest", "node"]
   },
-  "include": ["*.ts", "*.js"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
+  "exclude": ["node_modules", "dist"]
 }

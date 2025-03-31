@@ -1,7 +1,7 @@
 import { getUserById } from "@shared/utils/common/auth/helpers/user";
 jest.mock("@shared/utils/common/auth/db", () => ({
   __esModule: true,
-  default: require("./dbAuth").default,
+  default: require("../__mocks__/dbAuth").default,
 }));
 import db from "@shared/utils/common/auth/db";
 beforeEach(() => {

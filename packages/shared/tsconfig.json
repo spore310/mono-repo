@@ -16,5 +16,11 @@
     "allowImportingTsExtensions": true,
     "types": ["jest"]
   },
-  "include": ["src", "../../prisma/src", "__tests__", "__mocks__/dbAuth.ts"]
+  "include": [
+    "src",
+    "../../prisma/src",
+    "__tests__",
+    "__mocks__/dbAuth.ts",
+    "__mocks__/singleton.auth.ts"
+  ]
 }
