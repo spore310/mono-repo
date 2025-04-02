@@ -1,5 +1,5 @@
 // packages/jest/react.config.ts
-import base from "./jest.config";
+import base from "@jest/config/jest.config";
 
 import type { Config } from "jest";
 

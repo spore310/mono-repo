@@ -1,4 +1,4 @@
-import { PrismaClient } from "../../../../../prisma/src/generated/auth/index";
+import { PrismaClient } from "@prisma/core/generated/auth/index";
 
 const globalForPrisma = globalThis as unknown as {
   prismaAuth: PrismaClient | undefined;

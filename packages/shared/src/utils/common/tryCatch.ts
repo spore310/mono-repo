@@ -1,8 +1,6 @@
 export const tryCatch = async <T>(promise: Promise<T>) => {
   try {
-    // console.log("tryCatch try-promise:", promise);
     const response: T = await promise;
-    // console.log("tryCatch try-response:", response);
     return { response, error: null };
   } catch (error) {
     if (error instanceof Error) {

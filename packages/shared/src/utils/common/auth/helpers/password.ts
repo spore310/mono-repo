@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import { tryCatch } from "../../tryCatch";
+import { tryCatch } from "@shared/utils/common/tryCatch";
 export interface loginPayload {
   userPassword: string;
   reqPassword: string;

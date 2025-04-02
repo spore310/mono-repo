@@ -7,7 +7,6 @@ describe("tryCatch function tests", () => {
   it("catches a promise and returns the value in an object named response with a generic return type", async () => {
     const promise = Promise.resolve("Hello, world!");
     const { response, error } = await tryCatch(promise);
-    console.log("from test:", response, error);
     expect(response).toBe("Hello, world!");
     expect(error).toBeNull();
   });
