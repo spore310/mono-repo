@@ -1,0 +1,6 @@
+# Ignore ESLint config files
+**/.eslintrc.*
+**/eslint.config.js
+**/eslint.config.cjs
+**/eslint.config.mjs
+**/jest.config.js
