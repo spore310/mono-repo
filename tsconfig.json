@@ -29,7 +29,9 @@
       "@prisma/auth": ["packages/prisma/src//generated/auth/index.ts"],
 
       // Prisma Generated Clients
-      "@prisma/generated/*": ["packages/prisma/src/generated/*"]
+      "@prisma/generated/*": ["packages/prisma/src/generated/*"],
+
+      "@monorepoeslint/eslint-config/*": ["packages/eslint/*"]
     }
   },
   "exclude": ["node_modules", "dist", "build"]

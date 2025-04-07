@@ -1,2 +1,2 @@
-import { tryCatch } from "@shared/utils/common/tryCatch";
-export { tryCatch };
+import { tryCatch } from "@shared/utils/common/tryCatch"
+export { tryCatch }

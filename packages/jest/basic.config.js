@@ -24,6 +24,6 @@ const config = {
       useESM: true,
     },
   },
-};
+}
 
-export default config;
+export default config

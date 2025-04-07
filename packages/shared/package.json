@@ -9,7 +9,9 @@
     "dev": "tsc -w -p tsconfig.json",
     "clean": "rm -rf dist",
     "test": "jest --clearCache && jest --verbose",
-    "jest": "jest"
+    "jest": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
   },
   "volta": {
     "node": "20.11.1",
@@ -18,10 +20,19 @@
   },
   "devDependencies": {
     "@jest/config": "workspace:*",
+    "@monorepoeslint/eslint-config": "workspace:*",
+    "@types/eslint": "^9.6.1",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.13",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.4",
     "jest": "^29.7.0",
     "jest-mock-extended": "4.0.0-beta1",
+    "prettier": "^3.5.3",
     "prisma": "^5.22.0",
     "ts-jest": "^29.3.0",
     "typescript": "^5.3.3"

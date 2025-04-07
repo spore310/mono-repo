@@ -14,13 +14,14 @@
     "emitDeclarationOnly": false,
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
-    "types": ["jest"]
+    "types": ["jest", "eslint"]
   },
   "include": [
     "src",
     "../../prisma/src",
     "__tests__",
     "__mocks__/dbAuth.ts",
-    "__mocks__/singleton.auth.ts"
+    "__mocks__/singleton.auth.ts",
+    ".eslintrc.cjs"
   ]
 }

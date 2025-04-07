@@ -54,7 +54,7 @@ pnpm-lock.yaml
 
 # Prisma
 prisma/.env
-prisma/migrations/
+prisma/generated/
 
 # Jest
 jest-cache/

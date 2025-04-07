@@ -1,5 +1,5 @@
-import { tryCatch } from "@shared/utils/common/tryCatch";
-import db from "@shared/utils/common/auth/db";
+import { tryCatch } from "@shared/utils/common/tryCatch"
+import db from "@shared/utils/common/auth/helpers/db"
 
 export const getUserById = async <T>(id: string): Promise<T> => {
   /**
@@ -14,12 +14,12 @@ export const getUserById = async <T>(id: string): Promise<T> => {
         id,
       },
     })
-  );
+  )
   if (error) {
-    throw new Error("Unknown error");
+    throw new Error("Unknown error")
   }
   if (!response?.id) {
-    throw new Error("User not found");
+    throw new Error("User not found")
   }
-  return response as T;
-};
+  return response as T
+}

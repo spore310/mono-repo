@@ -1,8 +1,8 @@
-import crypto from "crypto";
-import { tryCatch } from "@shared/utils/common/tryCatch";
+import crypto from "crypto"
+import { tryCatch } from "@shared/utils/common/tryCatch"
 export interface loginPayload {
-  userPassword: string;
-  reqPassword: string;
+  userPassword: string
+  reqPassword: string
 }
 
 export const verifyPassword = async (body: loginPayload) => {
@@ -12,23 +12,28 @@ export const verifyPassword = async (body: loginPayload) => {
    * @returns {boolean} - Returns true if the passwords match, false otherwise
    * @description - This function compares the user's password from the database with the password from the request body
    */
-  const { userPassword, reqPassword } = body;
-  const encArr = userPassword.split(":");
-  const salt = encArr[1];
-  const newPass = await hashPassword(userPassword, { salt: salt });
+  const { userPassword, reqPassword } = body
+  const encArr = userPassword.split(":")
+  const salt = encArr[1]
+  const newPass = await hashPassword(userPassword, { salt: salt })
 
-  return newPass === reqPassword;
-};
+  return newPass === reqPassword
+}
 
 export const hashPassword = async (
   pass: string,
   options: {
-    keylen?: number;
-    iterations?: number;
-    digest?: string;
-    saltLength?: number;
-    salt?: string;
-  } = { keylen: 64, iterations: 100000, digest: "sha512", saltLength: 32 }
+    keylen?: number
+    iterations?: number
+    digest?: string
+    saltLength?: number
+    salt?: string
+  } = {
+    keylen: 64,
+    iterations: 100000,
+    digest: "sha512",
+    saltLength: 32,
+  }
 ): Promise<string> => {
   /**
    * @param {string} pass - The password to hash
@@ -47,26 +52,19 @@ export const hashPassword = async (
     digest = "sha512",
     saltLength = 32,
     salt: newSalt = undefined,
-  } = options;
+  } = options
 
-  const salt = newSalt ?? crypto.randomBytes(saltLength).toString("hex");
+  const salt = newSalt ?? crypto.randomBytes(saltLength).toString("hex")
   const newpromise = new Promise((resolve, reject) => {
-    crypto.pbkdf2(
-      pass,
-      salt,
-      iterations!,
-      keylen!,
-      digest!,
-      (err, derivedKey) => {
-        if (err) return reject(err);
-        // Return the salt and the hashed password (you can store both for later verification)
-        resolve(`${derivedKey.toString("hex")}:${salt}`);
-      }
-    );
-  });
-  const { error, response: newPass } = await tryCatch(newpromise);
+    crypto.pbkdf2(pass, salt, iterations!, keylen!, digest!, (err, derivedKey) => {
+      if (err) return reject(err)
+      // Return the salt and the hashed password (you can store both for later verification)
+      resolve(`${derivedKey.toString("hex")}:${salt}`)
+    })
+  })
+  const { error, response: newPass } = await tryCatch(newpromise)
   if (error) {
-    throw new Error(error);
+    throw new Error(error)
   }
-  return newPass as string;
-};
+  return newPass as string
+}

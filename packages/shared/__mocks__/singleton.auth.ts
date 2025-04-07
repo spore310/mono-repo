@@ -1,14 +1,13 @@
-import { PrismaClient } from "@prisma/core/generated/auth";
-import { mockDeep, mockReset, DeepMockProxy } from "jest-mock-extended";
+import { PrismaClient } from "@prisma/core/generated/auth"
+import { mockDeep, mockReset, DeepMockProxy } from "jest-mock-extended"
 
-const prismaAuthMock = mockDeep<PrismaClient>();
+const prismaAuthMock = mockDeep<PrismaClient>()
 jest.mock("../../prisma/src/generated/auth", () => ({
   __esModule: true,
   default: mockDeep<PrismaClient>(),
-}));
+}))
 beforeEach(() => {
-  mockReset(prismaAuthMock);
-});
+  mockReset(prismaAuthMock)
+})
 
-export const prismaMock =
-  prismaAuthMock as unknown as DeepMockProxy<PrismaClient>;
+export const prismaMock = prismaAuthMock as unknown as DeepMockProxy<PrismaClient>

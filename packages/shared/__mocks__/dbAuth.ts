@@ -3,6 +3,6 @@ const mockDb = {
     findUnique: jest.fn(),
     create: jest.fn(),
   },
-};
+}
 
-export default mockDb;
+export default mockDb

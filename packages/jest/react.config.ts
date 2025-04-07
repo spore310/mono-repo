@@ -1,7 +1,7 @@
 // packages/jest/react.config.ts
-import base from "@jest/config/jest.config";
+import base from "@jest/config/jest.config"
 
-import type { Config } from "jest";
+import type { Config } from "jest"
 
 const config: Config = {
   ...base,
@@ -10,6 +10,6 @@ const config: Config = {
   transform: {
     "^.+\\.(ts|tsx)$": "ts-jest",
   },
-};
+}
 
-export default config;
+export default config

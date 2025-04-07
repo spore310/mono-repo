@@ -1,7 +1,7 @@
-import { z } from "zod";
-import dotenv from "dotenv";
+import { z } from "zod"
+import dotenv from "dotenv"
 
-dotenv.config();
+dotenv.config()
 
 const envConfig = z.object({
   AUTH_SECRET_JTW_KEY: z.string().trim(),
@@ -9,6 +9,6 @@ const envConfig = z.object({
   NODE_ENV: z.string().default("development"),
   AUTH_DB_URL: z.string().trim().url(),
   PLATFORM: z.string().trim().optional(),
-});
+})
 
-export const env = envConfig.parse(process.env);
+export const env = envConfig.parse(process.env)
