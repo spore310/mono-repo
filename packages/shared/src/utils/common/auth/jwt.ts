@@ -1,14 +1,14 @@
 import { tryCatch } from "@common/tryCatch" // Utility for handling errors
 import { env } from "@shared/config/env"
 import { createHash } from "crypto" // Node.js crypto module for hashing
-import { EncryptJWT, jwtDecrypt } from "jose" // Library for JWT encryption and decryption
+import { EncryptJWT, jwtDecrypt, JWTDecryptResult, JWTPayload } from "jose" // Library for JWT encryption and decryption
 
 /**
  * Interface for the JWT payload.
  * @description - Represents the structure of the payload that will be encrypted into a JWT.
  */
 interface JWTPayLoad {
-  [key: string]: any // Allows any key-value pairs
+  [key: string]: string | number // Allows any key-value pairs
 }
 
 /**
@@ -62,7 +62,7 @@ export const encryptToken = async (payload: JWTPayLoad): Promise<TokenResponse> 
  * @throws {Error} - Throws an error if decryption fails.
  * @description - This function decrypts a JWT token and retrieves the original payload.
  */
-export const decrpytToken = async (token: string): Promise<JWTPayLoad> => {
+export const decrpytToken = async (token: string): Promise<JWTDecryptResult<JWTPayload>> => {
   // Decrypt the JWT token using the secret key
   const decPayLoad = jwtDecrypt(token, jwtSecret)
 
@@ -73,7 +73,9 @@ export const decrpytToken = async (token: string): Promise<JWTPayLoad> => {
   if (error) {
     throw new Error(error)
   }
-
+  if (!response) {
+    throw new Error("Decryption failed")
+  }
   // Return the decrypted payload
-  return response as JWTPayLoad
+  return response
 }
