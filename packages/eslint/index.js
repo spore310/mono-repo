@@ -9,8 +9,8 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   rules: {
-    "no-console": "warn",
-    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "error",
+    "@typescript-eslint/no-explicit-any": "warn",
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off", // not needed for Next.js
     "@typescript-eslint/no-import-type": "off", // not needed for Next.js
