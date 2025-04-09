@@ -10,7 +10,7 @@ module.exports = {
   ],
   rules: {
     "no-console": "error",
-    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-explicit-any": "error",
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off", // not needed for Next.js
     "@typescript-eslint/no-import-type": "off", // not needed for Next.js
