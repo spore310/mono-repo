@@ -1,5 +1,5 @@
 import { getUserById } from "@shared/utils/common/auth/helpers/user"
-jest.mock("@shared/utils/common/auth/db", () => ({
+jest.mock("@shared/utils/common/auth/helpers/db", () => ({
   __esModule: true,
   default: require("../__mocks__/dbAuth").default,
 }))
