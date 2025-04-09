@@ -58,7 +58,7 @@ export const encryptToken = async (payload: JWTPayLoad): Promise<TokenResponse> 
  * Decrypts a JWT token to retrieve the payload.
  *
  * @param {string} token - The encrypted JWT token to decrypt.
- * @returns {Promise<JWTPayLoad>} - A promise that resolves to the decrypted payload.
+ * @returns {Promise<JWTDecryptResult<JWTPayload>>} - A promise that resolves to the decrypted payload.
  * @throws {Error} - Throws an error if decryption fails.
  * @description - This function decrypts a JWT token and retrieves the original payload.
  */
