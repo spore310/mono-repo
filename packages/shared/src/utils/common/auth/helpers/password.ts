@@ -56,7 +56,7 @@ export const hashPassword = async (
 
   const salt = newSalt ?? crypto.randomBytes(saltLength).toString("hex")
   const newpromise = new Promise((resolve, reject) => {
-    crypto.pbkdf2(pass, salt, iterations!, keylen!, digest!, (err, derivedKey) => {
+    crypto.pbkdf2(pass, salt, iterations, keylen, digest, (err, derivedKey) => {
       if (err) return reject(err)
       // Return the salt and the hashed password (you can store both for later verification)
       resolve(`${derivedKey.toString("hex")}:${salt}`)

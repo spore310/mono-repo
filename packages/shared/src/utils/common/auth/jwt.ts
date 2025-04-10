@@ -20,12 +20,12 @@ type TokenResponse = string
 // Create a SHA-256 hash of the secret key from the environment variable
 const jwtSecret = new Uint8Array(
   createHash("sha256") // Create a SHA-256 hash
-    .update(env.AUTH_SECRET_JTW_KEY!) // Update the hash with the secret key (ensure it's defined)
+    .update(env.AUTH_SECRET_JTW_KEY) // Update the hash with the secret key (ensure it's defined)
     .digest() // Finalize the hash and convert it to a Uint8Array
 )
 
 // Get the JWT encryption algorithm from the environment variable
-const algo = env.AUTH_JWT_ALGO! // Ensure the algorithm is defined
+const algo = env.AUTH_JWT_ALGO // Ensure the algorithm is defined
 
 /**
  * Encrypts a payload into a JWT token.

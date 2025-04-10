@@ -8,9 +8,14 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
+
   overrides: [
     {
-      files: ["src/**/*.ts", "__tests__/**/*.test.tsx"],
+      files: ["src/**/*.ts"],
+      rules: {
+        "node/no-unsupported-features/es-syntax": "off",
+        "node/no-missing-import": "off",
+      },
     },
   ],
   settings: {
