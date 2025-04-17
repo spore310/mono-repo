@@ -9,7 +9,6 @@
     "dev": "tsc -w -p tsconfig.json",
     "clean": "rm -rf dist",
     "test": "jest --clearCache && jest --verbose",
-    "jest": "jest",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix"
   },
