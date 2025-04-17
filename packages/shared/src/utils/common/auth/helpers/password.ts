@@ -13,10 +13,9 @@ export interface loginPayload {
  */
 export const verifyPassword = async (body: loginPayload) => {
   const { userPassword, reqPassword } = body
-  const encArr = userPassword.split(":")
+  const encArr = reqPassword.split(":")
   const salt = encArr[1]
   const newPass = await hashPassword(userPassword, { salt: salt })
-
   return newPass === reqPassword
 }
 
@@ -41,6 +40,9 @@ export const hashPassword = async (
     salt?: string
   }
 ): Promise<string> => {
+  if (pass === "") {
+    throw new Error("Password cannot be empty")
+  }
   const {
     keylen = 64,
     iterations = 100000,

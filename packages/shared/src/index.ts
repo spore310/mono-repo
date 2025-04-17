@@ -1,4 +1,3 @@
 import { tryCatch } from "@shared/utils/common/tryCatch"
-export { tryCatch }
-
-console.log("shared package loaded")
+import { hashPassword, verifyPassword } from "./utils/common/auth/helpers/password"
+export { tryCatch, hashPassword, verifyPassword }

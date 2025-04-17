@@ -7,7 +7,7 @@
   "scripts": {
     "build": "pnpm run clean && tsup && tsc-alias -p tsconfig.json",
     "dev": "tsc -w -p tsconfig.json",
-    "clean": "rm -rf dist",
+    "clean": "rimraf -rf dist",
     "test": "jest --clearCache && jest --verbose",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix"
