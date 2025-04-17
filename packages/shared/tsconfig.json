@@ -6,19 +6,21 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
+
     "outDir": "dist",
     "rootDir": ".",
-    "composite": true,
+    "composite": false,
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["jest", "eslint"]
+    "types": ["jest", "eslint"],
+    "lib": ["DOM", "ES2022"]
   },
   "include": [
-    "src",
+    "src/**/*",
     "../../prisma/src",
     "__tests__",
     "__mocks__/dbAuth.ts",
