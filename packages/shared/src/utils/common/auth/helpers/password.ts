@@ -5,13 +5,13 @@ export interface loginPayload {
   reqPassword: string
 }
 
+/**
+ * @param {string} userPassword - The user's password from the database
+ * @param {string} reqPassword - The password from the request body
+ * @returns {boolean} - Returns true if the passwords match, false otherwise
+ * @description - This function compares the user's password from the database with the password from the request body
+ */
 export const verifyPassword = async (body: loginPayload) => {
-  /**
-   * @param {string} userPassword - The user's password from the database
-   * @param {string} reqPassword - The password from the request body
-   * @returns {boolean} - Returns true if the passwords match, false otherwise
-   * @description - This function compares the user's password from the database with the password from the request body
-   */
   const { userPassword, reqPassword } = body
   const encArr = userPassword.split(":")
   const salt = encArr[1]
@@ -20,6 +20,17 @@ export const verifyPassword = async (body: loginPayload) => {
   return newPass === reqPassword
 }
 
+/**
+ * @param {string} pass - The password to hash
+ * @param {object} options - The options object
+ * @param {number} options.keylen - The key length
+ * @param {number} options.iterations - The number of iterations
+ * @param {string} options.digest - The digest algorithm
+ * @param {number} options.saltLength - The salt length
+ * @param {string} options.salt - Provides salt for encryption; Overrides options.saltLength
+ * @returns {Promise<string>} - Returns a promise that resolves to the hashed password
+ * @description - This function hashes the password using the PBKDF2 algorithm
+ */
 export const hashPassword = async (
   pass: string,
   options: {
@@ -28,24 +39,8 @@ export const hashPassword = async (
     digest?: string
     saltLength?: number
     salt?: string
-  } = {
-    keylen: 64,
-    iterations: 100000,
-    digest: "sha512",
-    saltLength: 32,
   }
 ): Promise<string> => {
-  /**
-   * @param {string} pass - The password to hash
-   * @param {object} options - The options object
-   * @param {number} options.keylen - The key length
-   * @param {number} options.iterations - The number of iterations
-   * @param {string} options.digest - The digest algorithm
-   * @param {number} options.saltLength - The salt length
-   * @param {string} options.salt - Provides salt for encryption; Overrides options.saltLength
-   * @returns {Promise<string>} - Returns a promise that resolves to the hashed password
-   * @description - This function hashes the password using the PBKDF2 algorithm
-   */
   const {
     keylen = 64,
     iterations = 100000,
