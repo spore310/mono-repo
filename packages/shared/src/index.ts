@@ -12,12 +12,16 @@ const foo = () => {
     funcName: foo.name,
     args: [],
   })
+  console.log(errorObject.getJson())
+}
+const bar = () => {
   const prismaErrorObject = new PrismaError({
-    message: "this is a test error",
+    message: "P2011",
     funcName: foo.name,
     feature: "prisma-middleware",
     args: [],
   })
-  console.log(errorObject.getJson(), prismaErrorObject.getJson())
+  console.log(prismaErrorObject.getJson())
 }
 foo()
+bar()
