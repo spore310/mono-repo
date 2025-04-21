@@ -31,4 +31,8 @@ describe("getUserByID function tests ", () => {
     ;(db.user.findUnique as jest.Mock).mockRejectedValue(new Error("Unknown error"))
     await expect(getUserById("1")).rejects.toThrow("Unknown error")
   })
+  it("should throw an 'Invalid user ID' error when an invalid user ID such as `null` type or ` \"\" ` type is provided", async () => {
+    await expect(getUserById(null)).rejects.toThrow("Invalid user ID")
+    await expect(getUserById("")).rejects.toThrow("Invalid user ID")
+  })
 })
