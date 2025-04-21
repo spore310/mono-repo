@@ -34,7 +34,7 @@ export const verifyPassword = async (body: loginPayload): Promise<boolean> => {
     throw new Error("Invalid password format")
   }
   const newPass = await hashPassword(userPassword, { salt: salt })
-  const [userPass, _] = getPassSplit(newPass)
+  const [userPass] = getPassSplit(newPass)
   return userPass === reqPass
 }
 

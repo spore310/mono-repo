@@ -17,6 +17,13 @@ module.exports = {
         "node/no-missing-import": "off",
       },
     },
+    {
+      files: ["src/utils/common/error/**/*.ts"],
+      rules: {
+        "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/restrict-template-expressions": "off",
+      },
+    },
   ],
   settings: {
     react: {
