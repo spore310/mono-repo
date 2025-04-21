@@ -7,6 +7,7 @@
   "scripts": {
     "build": "pnpm run clean && tsup && tsc-alias -p tsconfig.json",
     "start": "node dist/index.js",
+    "devProd": "pnpm run build && pnpm run start",
     "dev": "tsc -w -p tsconfig.json",
     "clean": "rimraf -rf dist",
     "test": "jest --clearCache && jest --verbose",
