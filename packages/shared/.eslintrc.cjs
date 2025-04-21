@@ -23,4 +23,5 @@ module.exports = {
       version: "999.999.999",
     },
   },
+  ignorePatterns: ["node_modules", "dist", "tsup.config.ts", "jest.config.js"],
 }

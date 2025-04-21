@@ -16,7 +16,7 @@
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["jest", "eslint"],
+    "types": ["jest", "eslint", "node"],
     "lib": ["DOM", "ES2022"]
   },
   "include": [

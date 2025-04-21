@@ -6,8 +6,8 @@ export interface loginPayload {
 }
 
 /**
- * @param {string} userPassword - The user's password from the database
- * @param {string} reqPassword - The password from the request body
+ * @param {string} body.userPassword - The user's password from the database
+ * @param {string} body.reqPassword - The password from the request body
  * @returns {boolean} - Returns true if the passwords match, false otherwise
  * @description - This function compares the user's password from the database with the password from the request body
  */
@@ -40,7 +40,7 @@ export const hashPassword = async (
     salt?: string
   }
 ): Promise<string> => {
-  if (pass === "") {
+  if (pass.length !== 0) {
     throw new Error("Password cannot be empty")
   }
   const {
@@ -53,11 +53,18 @@ export const hashPassword = async (
 
   const salt = newSalt ?? crypto.randomBytes(saltLength).toString("hex")
   const newpromise = new Promise((resolve, reject) => {
-    crypto.pbkdf2(pass, salt, iterations, keylen, digest, (err, derivedKey) => {
-      if (err) return reject(err)
-      // Return the salt and the hashed password (you can store both for later verification)
-      resolve(`${derivedKey.toString("hex")}:${salt}`)
-    })
+    crypto.pbkdf2(
+      pass,
+      salt,
+      iterations,
+      keylen,
+      digest,
+      (err: Error | null, derivedKey: Buffer<ArrayBufferLike>) => {
+        if (err) return reject(err)
+        // Return the salt and the hashed password (you can store both for later verification)
+        resolve(`${derivedKey.toString("hex")}:${salt}`)
+      }
+    )
   })
   const { error, response: newPass } = await tryCatch(newpromise)
   if (error) {
