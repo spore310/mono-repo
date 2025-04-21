@@ -1,5 +1,18 @@
 import crypto from "crypto"
 import { tryCatch } from "@shared/utils/common/tryCatch"
+
+/**
+ *
+ * @param pass - The password to split
+ * @returns `string[]` an array of strings containing the hashed password and the salt
+ * @throws `Error` - Throws an error if the password format is invalid
+ */
+const getPassSplit = (pass: string): string[] => {
+  if (!pass?.includes(":") || pass?.split(":").length !== 2) {
+    throw new Error("Invalid password format")
+  }
+  return pass.split(":")
+}
 export interface loginPayload {
   userPassword: string
   reqPassword: string
@@ -8,15 +21,21 @@ export interface loginPayload {
 /**
  * @param {string} body.userPassword - The user's password from the database
  * @param {string} body.reqPassword - The password from the request body
- * @returns {boolean} - Returns true if the passwords match, false otherwise
- * @description - This function compares the user's password from the database with the password from the request body
+ * @returns {Promise<boolean>} `isMatch` - Returns true if the passwords match, false otherwise
+ * @description  This function compares the user's password from the database with the password from the request body
  */
-export const verifyPassword = async (body: loginPayload) => {
+export const verifyPassword = async (body: loginPayload): Promise<boolean> => {
   const { userPassword, reqPassword } = body
-  const encArr = reqPassword.split(":")
-  const salt = encArr[1]
+  if (userPassword.length === 0 || reqPassword.length === 0) {
+    throw new Error("Password cannot be empty")
+  }
+  const [reqPass, salt] = getPassSplit(reqPassword)
+  if (!reqPass || !salt) {
+    throw new Error("Invalid password format")
+  }
   const newPass = await hashPassword(userPassword, { salt: salt })
-  return newPass === reqPassword
+  const [userPass, _] = getPassSplit(newPass)
+  return userPass === reqPass
 }
 
 /**
@@ -40,7 +59,7 @@ export const hashPassword = async (
     salt?: string
   }
 ): Promise<string> => {
-  if (pass.length !== 0) {
+  if (pass.length === 0) {
     throw new Error("Password cannot be empty")
   }
   const {

@@ -1,5 +1,9 @@
 import { tryCatch } from "@shared/index"
-import { hashPassword, verifyPassword } from "@shared/utils/common/auth/helpers/password"
+import {
+  hashPassword,
+  loginPayload,
+  verifyPassword,
+} from "@shared/utils/common/auth/helpers/password"
 
 describe("Password Hashing and Verification", () => {
   it("should hash a password correctly", async () => {
@@ -26,5 +30,14 @@ describe("Password Hashing and Verification", () => {
     )
     expect(error).toBeNull()
     expect(isVerified).toBe(true)
+  })
+
+  it("should throw an error if the password format is invalid to the current hashing algorithm, info can be found in the internal docs", async () => {
+    const body: loginPayload = {
+      userPassword: "dsadsad",
+      reqPassword: "dsadsaddsadsad",
+    }
+    const { error } = await tryCatch(verifyPassword(body))
+    expect(error).toBeTruthy()
   })
 })
