@@ -1,7 +1,7 @@
 import { tryCatch } from "@shared/utils/common/tryCatch"
 import { hashPassword, verifyPassword } from "./utils/common/auth/helpers/password"
 import { BaseError } from "@common/error"
-import { PrismaError } from "@common/error/prisma"
+import { PrismaError, PrismaErrorHashMap } from "@common/error/prisma"
 
 export { tryCatch, hashPassword, verifyPassword }
 console.log("shared package loaded")
@@ -17,9 +17,17 @@ const foo = () => {
 const bar = () => {
   const prismaErrorObject = new PrismaError({
     message: "P2011",
-    funcName: foo.name,
+    funcName: bar.name,
     feature: "prisma-middleware",
-    args: [],
+    args: [
+      () => {
+        console.log("test")
+      },
+      1,
+      "helloworld",
+      undefined,
+    ],
+    errorCodes: PrismaErrorHashMap,
   })
   console.log(prismaErrorObject.getJson())
 }

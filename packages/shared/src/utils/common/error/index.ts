@@ -5,45 +5,58 @@ export interface ErrorOptionsRequiredObject {
 }
 
 export type BaseErrorFeature = "auth" | "db" | "shared"
-export type BaseErrorExtendedAppTypes = "@shared/core" | "@prisma" | "@ui"
-
+export type BaseErrorExtendedAppTypes = "@shared/core" | "@ui"
+export type ExtendedAppTypes<X> = X | BaseErrorExtendedAppTypes
 export interface ErrorOptionsOptionalObject<U> {
-  feature?: U
+  feature?: U | BaseErrorFeature
   statusCode?: number
+  cause?: string
+  errorCodes?: { [key: string]: string }
 }
 
 export type BaseErrorOptions<T> = ErrorOptionsRequiredObject & ErrorOptionsOptionalObject<T>
-
-export class BaseError<T> extends Error {
-  protected app: BaseErrorExtendedAppTypes = "@shared/core"
-  private _feature: T
+export class BaseError<ExtendedFeatureTypes> extends Error {
+  protected static app: string = "@shared/core"
+  protected static errorCodes?: { [key: string]: string } = {}
+  private _feature: ExtendedFeatureTypes
   private _statusCode: number
   private _args: any[]
   private _funcName: string
   private _featureName: string
-  constructor(options: BaseErrorOptions<T>) {
-    const { message, funcName, args, feature = "shared", statusCode = 520 } = options
+  constructor(options: BaseErrorOptions<ExtendedFeatureTypes>) {
+    const { message, funcName, args, feature = "shared", statusCode = 520, cause } = options
 
-    super(message)
+    super("")
+    this.message = this.getErrorMessage(message)
+    this.cause = cause ?? message
     this.name = "BaseError"
     this._statusCode = statusCode
-    this._feature = feature as T
-    this._args = args
+    this._feature = feature as ExtendedFeatureTypes
+    this._args = this.getArgs(args)
     this._funcName = `[${funcName}]`
-    this._featureName = `${this.app}-${this._feature}`
+    this._featureName = `${(this.constructor as typeof BaseError).app}-${this._feature}`
   }
 
   get statusCode(): number {
     return this._statusCode
   }
-
+  protected getErrorMessage(errorCode: string): string {
+    const codes = (this.constructor as typeof BaseError).errorCodes
+    // eslint-disable-next-line security/detect-object-injection
+    const errorMessage = codes?.[errorCode]
+    return errorMessage ?? errorCode ?? "Unknown error"
+  }
+  private getArgs(args: any[]): string[] {
+    return args?.map((arg) => `${arg}`) ?? []
+  }
   getJson() {
     return JSON.stringify(
       {
-        app: this.app,
+        app: (this.constructor as typeof BaseError).app,
         feature: this._featureName,
         statusCode: this._statusCode,
         message: this.message,
+        cause: this.cause,
         funcName: this._funcName,
         args: this._args,
         stack: this.stack,
